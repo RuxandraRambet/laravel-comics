@@ -43,9 +43,9 @@ $menu = [
 ]
 ?>
 <header>
-    <div class="container d-flex align-items-center justify-content-between p-5">
+    <div class="container d-flex align-items-center justify-content-between">
         <div class="logo-container">
-            <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="DC Logo">
+            <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="DC Logo" class="mt-2">
         </div>
         <nav>
             <ul class="list-unstyled d-flex align-items-center text-uppercase gap-3">
