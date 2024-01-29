@@ -1,2 +1,25 @@
 @import "~bootstrap/scss/bootstrap";
 @import "_partials/variables.scss";
+
+header {
+   
+    img {
+        width: 80px;
+        margin-bottom: 15px;
+    }
+    li {
+        a {
+            text-decoration: none;
+            color:#464646 ;
+        }
+
+        &:hover {
+            color: #0282f9;
+            border-bottom: 5px solid #0282f9;
+            
+            a {
+                color: #0282f9;
+            }
+        }
+    }
+}
