@@ -19,4 +19,30 @@
             </div>
         </div>
     </div>
+    <div class="icons-section">
+        <div class="container">
+            <ul class="list-unstyled">
+                <li>
+                    <a href="#"><img src="{{ Vite::asset('resources/img/buy-comics-digital-comics.png') }}" alt="Digital Comics"></a>
+                    <h5 class="px-3">Digital Comics</h5>
+                </li>
+                <li>
+                    <a href="#"><img src="{{ Vite::asset('resources/img/buy-comics-merchandise.png') }}" alt="DC Merchandise"></a>
+                    <h5 class="px-3">DC Merchandise</h5>
+                </li>
+                <li>
+                    <a href="#"><img src="{{ Vite::asset('resources/img/buy-comics-subscriptions.png') }}" alt="DC Subscription"></a>
+                    <h5 class="px-3">Subscription</h5>
+                </li>
+                <li>
+                    <a href="#"><img src="{{ Vite::asset('resources/img/buy-comics-shop-locator.png') }}" alt="DC Comics Shop"></a>
+                    <h5 class="px-3">Comic Shop Locator</h5>
+                </li>
+                <li>
+                    <a href="#"><img src="{{ Vite::asset('resources/img/buy-dc-power-visa.svg') }}" alt="DC Power Visa"></a>
+                    <h5 class="px-3">DC Power Visa</h5>
+                </li>
+            </ul>
+        </div>
+    </div>
 @endsection
